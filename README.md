@@ -78,6 +78,10 @@ FSInteractiveMapView* map = [[FSInteractiveMapView alloc] initWithFrame:CGRectMa
 }];
 ```
 
+There is a demo of both Swift and Obj-C projects included. 
+
+In order to use the Swift Package Example, open the .xcworkspace file in the root of the project and select scheme "FSInteractiveMapSwift"
+
 How to find SVG maps
 ---
 There are a few places where you can find svg files that are suitable for FSInteractiveMap. Here is a short list:
