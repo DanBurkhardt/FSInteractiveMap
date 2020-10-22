@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
 	s.license = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
 	s.platform = :ios, '7.0'
 	s.source = { :git => "https://github.com/ArthurGuibert/FSInteractiveMap.git",:tag => "#{s.version}" }
-	s.source_files = 'Classes', 'FSInteractiveMap/FSInteractiveMap/**/*.{h,m}'
+	s.source_files = 'Classes', 'FSInteractiveMap/FSInteractiveMap/include/**/*.{h,m}'
 	s.requires_arc = true
 end

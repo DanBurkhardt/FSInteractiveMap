@@ -7,7 +7,7 @@
 //
 
 #import "FSInteractiveMapView.h"
-#import "FSSVG.h"
+#import "FSSVG/FSSVG.h"
 #include <math.h>
 
 @interface FSInteractiveMapView ()

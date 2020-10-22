@@ -17,6 +17,17 @@ Screenshots
 
 Installing FSInteractiveMap
 ---
+
+Swift Package Manager:
+    
+Add the URL of this repo to your project and target the "master" branch
+
+        e.g.: project> project> swift packages> "+" 
+        then add https:// .. ${THIS_REPO}.git
+        select "master" branch instead of any particular release.
+
+Cocoapods:
+
 Add the contents of the FSInteractiveMap project to your directory or simply add the following line to your Podfile:
 
     pod "FSInteractiveMap"
